@@ -10,6 +10,7 @@ Due to company policy,source code, and dashboard designs are not disclosed. The 
 ## 1. Business Problem & Objective
 
 In high-volume battery manufacturing, defect identification relies on binary OK/NG judgments from vision inspection systems without specific defect classification. Manual review of NG images and upstream sensor data was time-consuming and inconsistent.
+<img src="Flowchart_1.png" alt="Description" width="500" height="700" align="right">
 
 **Business Objectives:**
 - Automate defect type classification to reduce manual inspection time and resource use.
@@ -25,7 +26,10 @@ In high-volume battery manufacturing, defect identification relies on binary OK/
 - 60% reduction in defect analysis time
 - $300K labor cost reduction per production line annually. 
 
+
 ## 2. Solution Architecture 
+
+<img src="Flowchart_3.png" alt="Description" width="1000" height="700" align="center">
 
 **Key Notes on System Behavior:**
 - Data Colleciton Layer:  
@@ -66,6 +70,8 @@ In high-volume battery manufacturing, defect identification relies on binary OK/
 - WND image files are archived separately and only matched images are merged to analysis file.
 
 ## 4. Model Summary 
+
+<img src="Flowchart_2.png" alt="Description" width="1000" height="500" align="Center">
 
 - **Model Type:** Supervised multi-class image classification (4 vision sensors, 20 defect types in total)
 - Applied a CNN-based supervised image classification model, fine-tuned through an internal AutoML framework that covers augmentation, loss function tuning, and hyperparameter optimization, with mAP as the key performance metric.
