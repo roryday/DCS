@@ -1,7 +1,8 @@
 # AI-Based Defect Classification System (DCS)
 
 ## Executive Summary
-Automated root cause classification system for battery cell defects using multi-class image classification and integrated equipment log data. Reduced manual analysis time by 60%, saving $300K annually per line. Delivered real-time dashboards to QA engineers.
+Automated Defect Classification System with AI/ML-based screening tool using an iterative SDLC approach, incorporating stakeholder feedback, testing cycles, and model optimization. This tool identifies the root cause of defects, cutting defect analysis time by 60% and saving labor cost by USD 300K per production line.
+# *Confidentiality Note: Due to company policy,source code, and dashboard designs are not disclosed. The following report presents a general overview of the project only.
 
 ---
 
