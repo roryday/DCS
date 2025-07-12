@@ -10,7 +10,7 @@ Due to company policy,source code, and dashboard designs are not disclosed. The 
 ## 1. Business Problem & Objective
 
 In high-volume battery manufacturing, defect identification relies on binary OK/NG judgments from vision inspection systems without specific defect classification. Manual review of NG images and upstream sensor data was time-consuming and inconsistent.
-<img src="Flowchart_1.png" alt="Description" width="500" height="700" align="right">
+<img src="Flowchart_1.png" alt="Description" width="500" height="600" align="right">
 
 **Business Objectives:**
 - Automate defect type classification to reduce manual inspection time and resource use.
